@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/font.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+  </head>
+  <body>
+    <div class="container">
+      <sidebar class="sidebar">
+        <img
+          src="./image/user-back.jpg"
+          alt="user-back"
+          class="user-background"
+        />
+        <div class="user-info">
+          <img
+            src="./image/7dc5a9378b3ac6c28152d2bbf9d6af77.jfif"
+            alt="user-photo"
+            class="user-photo"
+          />
+          <h3 class="user-name font-primary">Дмитрий Валак</h3>
+          <p class="user-prof font-secondary">блог front-end разработчика</p>
+          <div class="user-socials">
+            <a href="#" class="user-link">
+              <img
+                src="/image/instagram.png"
+                alt="insta"
+                class="user-social user-insta"
+              />
+            </a>
+            <a href="#" class="user-link">
+              <img
+                src="/image/vkontakte.png"
+                alt="vk"
+                class="user-social user-vk"
+              />
+            </a>
+            <a href="#" class="user-link">
+              <img
+                src="/image/pinterest.png"
+                alt="pin"
+                class="user-social user-vk"
+              />
+            </a>
+          </div>
+          <div class="line--dark"></div>
+          <p class="user-about font-tertiary">
+            Front-end разработчик. Практик верстки сайтов. Созданием сайтов
+            занимаюсь с 2012 года. Работал в нескольких ИТ компаниях и наработал
+            более 10 000 часов в создании сайтов различной сложности.
+          </p>
+          <div class="line--dark"></div>
+          <div class="user-buttons">
+            <button class="user-button red-button">Мои работы</button>
+            <button class="user-button blue-button">Написать мне</button>
+          </div>
+        </div>
+      </sidebar>
+      <main class="main">
+        <header class="header">
+          <nav class="navbar">
+            <span class="hamburger__icon"></span>
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#" class="nav-link font-nav">Главная</a>
+              </li>
+              <li id="popup" class="nav-item nav-item--blue">
+                <a href="#" class="nav-link font-nav"
+                  >Статьи
+                  <svg class="nav-icon">
+                    <use
+                      xlink:href="image/sprite.svg#icon-arrow_drop_down"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link font-nav">Обо мне</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link font-nav">Реклама</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link font-nav">Профиль</a>
+              </li>
+            </ul>
+            <form class="nav-search">
+              <input
+                type="text"
+                class="nav-input font-subnav"
+                placeholder="Поиск по блогу"
+              />
+            </form>
+          </nav>
+        </header>
+        <div class="subnav-dropdown">
+          <ul class="subnav-list">
+            <li class="subnav-item">
+              <a href="#" class="subnav-link font-subnav">Создание сайтов</a>
+            </li>
+            <li class="subnav-item">
+              <a href="#" class="subnav-link font-subnav">Интернет-маркетинг</a>
+            </li>
+            <li class="subnav-item">
+              <a href="#" class="subnav-link font-subnav">Продвижение видео</a>
+            </li>
+          </ul>
+        </div>
+        <section class="posts">
+          <div class="post__container">
+            <div class="post__pictures">
+              <div class="post__picture picture--1">
+                <p class="picture__text font-date">Отдыхаю на природе</p>
+                <div class="picture__date font-date">21.09.2020</div>
+              </div>
+              <div class="post__picture picture--2">
+                <p class="picture__text font-date">Заканчиваю сложный проект</p>
+                <div class="picture__date font-date">15.09.2020</div>
+              </div>
+              <div class="post__picture picture--3">
+                <p class="picture__text font-date">Переехал в новую квартиру</p>
+                <div class="picture__date font-date">11.09.2020</div>
+              </div>
+              <div class="post__picture picture--4">
+                <p class="picture__text font-date">Осень пришла!</p>
+                <div class="picture__date font-date">28.08.2020</div>
+              </div>
+            </div>
+            <div class="post__send">
+              <form class="post__form">
+                <input
+                  type="text"
+                  class="post__input"
+                  placeholder="Напишите что-нибудь"
+                />
+              </form>
+              <div class="post__icons">
+                <div class="post__icon">
+                  <svg class="post__icon--photo">
+                    <use xlink:href="image/sprite.svg#icon-camera"></use>
+                  </svg>
+                </div>
+                <div class="post__icon">
+                  <svg class="post__icon--send">
+                    <use xlink:href="image/sprite.svg#icon-send"></use>
+                  </svg>
+                  <img class={image}/>
+                  <div> 
+                   <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident explicabo sed ab sunt ratione eum dolore libero voluptatibus enim? Fuga, explicabo?Z</h1> 
+                  </div>    
+                </div>
+              </div>
+            </div>
+            <div class="post__content">
+              <p class="post__content--text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                architecto optio culpa itaque corporis, dolores illum ratione
+                eum delectus! Voluptas ipsum debitis modi impedit distinctio sed
+                recusandae necessitatibus reprehenderit eveniet enim odio
+                inventore quaerat vitae possimus, optio iste error nulla
+                consequatur qui? In consequatur exercitationem numquam labore
+                dolor vero doloremque reiciendis veritatis similique, quasi nemo
+                mollitia quam quia inventore fugit nihil accusantium possimus
+                itaque omnis excepturi quae quibusdam explicabo. Deserunt!
+              </p>
+              <p class="post__content--date font-date">21.06.2020</p>
+            </div>
+            <div class="post__coding">
+              <div class="post__coding-image"></div>
+              <div class="post__coding-content">
+                <h2 class="post__coding-title font-title">
+                  Как писать код быстро и безболезненно?
+                </h2>
+                <p class="post__coding-text font-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur mollitia ex illum dolore placeat enim numquam totam.
+                  Consequatur, labore maiores unde veritatis accusantium impedit
+                  dolorem illum cumque distinctio fuga, quia deserunt cupiditate
+                  quis, quaerat minus! Labore quibusdam consectetur vero nobis
+                  repellat, eos voluptate assumenda quaerat quia dolore autem
+                  doloribus nesciunt!
+                </p>
+                <div class="post__coding-publish">
+                  <div class="post__coding-date font-date">21.06.2020</div>
+                  <span class="post__coding-icon"></span>
+                  <p class="post__coding-slogan font-slogan">создание сайтов</p>
+                  <h5 class="post__coding-more font-subnav">читать</h5>
+                </div>
+              </div>
+            </div>
+            <div class="post__media">
+              <div class="post__coding-content">
+                <div class="post__media-video">
+                  <div class="post__media-play">
+                    <img src="/image/play.svg" alt="play-icon" />
+                  </div>
+                </div>
+                <h2 class="post__coding-title font-title">
+                  Купил новый ноутбук за 150 000 руб
+                </h2>
+
+                <div class="post__coding-publish">
+                  <div class="post__coding-date font-date">21.06.2020</div>
+                  <span class="post__coding-icon"></span>
+                  <p class="post__coding-slogan font-slogan">
+                    продвижение видео
+                  </p>
+                  <h5 class="post__coding-more font-subnav">
+                    оставить комментарий
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="post__coding post__coding--last">
+              <div class="post__coding-image post__coding-image--2"></div>
+              <div class="post__coding-content">
+                <h2 class="post__coding-title font-title">
+                  Как я сходил на FrontEnd Conf 2021
+                </h2>
+                <p class="post__coding-text font-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur mollitia ex illum dolore placeat enim numquam totam.
+                  Consequatur, labore maiores unde veritatis accusantium impedit
+                  dolorem illum cumque distinctio fuga, quia deserunt cupiditate
+                  quis, quaerat minus! Labore quibusdam consectetur vero nobis
+                  repellat, eos voluptate assumenda quaerat quia dolore autem
+                  doloribus nesciunt!
+                </p>
+                <div class="post__coding-publish">
+                  <div class="post__coding-date font-date">21.06.2020</div>
+                  <span class="post__coding-icon"></span>
+                  <p class="post__coding-slogan font-slogan">создание сайтов</p>
+                  <h5 class="post__coding-more font-subnav">читать</h5>
+                </div>
+              </div>
+            </div>
+            <div class="post__pagination">
+              <span class="pagination__cell font-nav">&lt;</span>
+              <span class="pagination__cell font-nav">1</span>
+              <span class="pagination__cell font-nav">2</span>
+              <span class="pagination__cell font-nav">3</span>
+              <span class="pagination__cell font-nav">&gt;</span>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script>
+      const popup = document.getElementById("popup")
+
+      popup.addEventListener("mouseover", function (e) {
+        e.preventDefault()
+        document.querySelector(".subnav-dropdown").classList.add("is__visible")
+      })
+
+      popup.addEventListener("mouseout", function (e) {
+        e.preventDefault()
+        document
+          .querySelector(".subnav-dropdown")
+          .classList.remove("is__visible")
+      })
+    </script>
+  </body>
+</html>

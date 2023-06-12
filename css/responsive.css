@@ -1,0 +1,148 @@
+/* Width 1210px for devices   */
+@media only screen and (max-width: 1210px) {
+  :root {
+    font-size: 50%; /* 1rem = 8px */
+  }
+}
+
+/*  Width 1050px for devices */
+@media only screen and (max-width: 1050px) {
+  .user-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-button {
+    width: 70%;
+  }
+
+  .user-button:nth-child(2) {
+    margin-top: 2rem;
+  }
+}
+
+/*  Width 1020px for devices */
+@media only screen and (max-width: 1020px) {
+  .user-about {
+    width: 22rem;
+  }
+
+  .post__pictures {
+    flex-wrap: wrap;
+  }
+
+  .post__picture {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 48%;
+    height: 42rem;
+  }
+
+  .post__picture:not(:last-of-type) {
+    margin-right: 0;
+  }
+
+  .post__picture:nth-child(1),
+  .post__picture:nth-child(3) {
+    margin-right: 2rem;
+  }
+
+  .post__picture:nth-child(-n + 2) {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Width 990px for devices */
+@media only screen and (max-width: 990px) {
+  .navbar {
+    position: relative;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-search {
+    margin-left: auto;
+  }
+
+  .hamburger__icon {
+    position: absolute;
+    top: 1.9rem;
+    left: 2rem;
+    display: block;
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: #fff;
+  }
+
+  .hamburger__icon::before {
+    content: "";
+    position: absolute;
+    top: -0.6rem;
+    left: 0rem;
+    display: block;
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: #fff;
+  }
+
+  .hamburger__icon::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0.6rem;
+    left: 0rem;
+    display: block;
+    width: 2.5rem;
+    height: 0.2rem;
+    background-color: #fff;
+  }
+}
+
+/* Width 820px for devices */
+@media only screen and (max-width: 820px) {
+  .sidebar {
+    display: none;
+  }
+
+  .post__coding--last {
+    display: none;
+  }
+}
+
+/* Width 630px for devices */
+@media only screen and (max-width: 630px) {
+  .post__picture:nth-last-of-type(-n + 2) {
+    display: none;
+  }
+}
+
+/* Width 470px for devices */
+@media only screen and (max-width: 470px) {
+  .nav-search {
+    width: 32rem;
+  }
+
+  .post__picture:nth-child(1) {
+    margin-right: 0;
+    flex-basis: 100%;
+  }
+
+  .post__picture:nth-child(2) {
+    margin-bottom: 0;
+    flex-basis: 100%;
+  }
+}
+
+/* Width 442px for devices */
+@media only screen and (max-width: 442px) {
+  .post__coding-publish {
+    flex-wrap: wrap;
+  }
+
+  .post__coding-more {
+    flex-basis: 100%;
+    margin-top: 1rem;
+  }
+}
